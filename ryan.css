@@ -1,0 +1,296 @@
+div {
+    margin:0;
+}
+
+.ryan {
+    display: block;
+    width: 500px;
+    height: 500px;
+}
+.head {
+    position: absolute;
+    margin-top:15px;
+    z-index: 2;
+    width:370px;
+    height:350px;
+    background-color: rgb(213,151,41);
+
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 12px;
+    border-color: black;
+}
+#left_ear {
+    margin:0;
+    position: absolute;
+    left: 52px;
+    z-index: -1;
+    width:70px;
+    height:80px;
+    background-color: rgb(213,151,41);
+
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 12px;
+    border-color: black;}
+#right_ear {
+    margin:0;
+    position: absolute;
+    left: 252px;
+    z-index: -1;
+    width:70px;
+    height:80px;
+    background-color: rgb(213,151,41);
+
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 12px;
+    border-color: black;
+}
+#left_eye {
+
+    margin:0;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    z-index: -1;
+    width:25px;
+    height:25px;
+    background-color: black;
+
+    border-radius: 50%;
+}
+#right_eye {
+
+    margin:0;
+    position: absolute;
+    top: 150px;
+    left: 245px;
+    z-index: -1;
+    width:25px;
+    height:25px;
+    background-color: black;
+
+    border-radius: 50%;
+}
+
+#left_eye_brow {
+
+    margin:0;
+    position: absolute;
+    top: 107px;
+    left: 59px;
+    z-index: -1;
+    width:82px;
+    height:15px;
+    background-color: black;
+
+    border-radius: 15px;
+}
+
+#right_eye_brow {
+
+    margin:0;
+    position: absolute;
+    top: 107px;
+    left: 229px;
+    z-index: -1;
+    width:82px;
+    height:15px;
+    background-color: black;
+
+    border-radius: 15px;
+}
+
+.mouth {
+    position: absolute;
+    width: 131px;
+    height: 80px;
+    left:125px;
+    top:203px;
+}
+
+#left_lip {
+    position: absolute;
+    height: 45px;
+    width: 53px;
+    left: -2px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 13px;
+    border-radius: 50%;
+}
+#lip_over {
+
+    position: absolute;
+    height: 45px;
+    width: 53px;
+    left:11px;
+    top:13px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+#right_lip {
+    position: absolute;
+    height: 45px;
+    width: 53px;
+    left:40px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 13px;
+    border-radius: 50%;
+}
+
+.nose {
+    z-index: 10;
+    position: absolute;
+    width: 32px;
+    height: 60px;
+    left:169px;
+    top:195px;
+}
+
+#nose_top {
+    position: relative;
+    width: 32px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+.weng {
+ height: 500px;
+}
+
+.w_head {
+    height:400px;
+    width: 300px;
+    background-color: #1DC4BC;
+
+
+    border-radius: 100% 100% 0 0;
+    border-width: 7px;
+    border-color: black;
+    border-style: solid;
+    position: absolute;
+}
+
+#w_eyes {
+    position: relative;
+    width: 240px;
+    height: 120px;
+    left:50px;
+    top: 70px;
+    "background-color: white;
+
+}
+
+.w_eye {
+    position: absolute;
+    height: 120px;
+    width: 70px;
+    background-color: white;
+    border-radius: 70%;
+    border-style: solid;
+    border-color: black;
+    border-width: 7px;
+}
+#w_left_eye {
+    transform: rotate(20deg);
+}
+
+#w_right_eye {
+    left: 130px;
+    transform: rotate(-20deg);
+}
+
+.w_eye_core {
+    position: relative;
+    height: 80px;
+    width: 40px;
+    background-color: black;
+    border-radius: 70%;
+
+    left:12px;
+    top: 20px
+
+}
+
+#w_nose {
+    position: relative;
+    left: 150px;
+    top: 190px;
+    width: 30px;
+    height: 10px;
+}
+
+.w_nose_hole {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+#w_right_nose_hole {
+    left:15px
+}
+
+
+#w_mouth_cover {
+    z-index: 20;
+    position: relative;
+    width: 245px;
+    height: 70px;
+
+
+    left:27px;
+    top: 205px;
+
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    border-width: 7px;
+
+}
+
+#w_mouth {
+    position: relative;
+    width: 250px;
+    height: 80px;
+    background-color: black;
+
+    left:32px;
+    top: 125px;
+
+    border-radius: 50%;
+}
+
+#w_teeth {
+    position: absolute;
+    width: 120px;
+    height: 20px;
+    left: 70px;
+}
+
+.w_tooth {
+    top:3px;
+    position: relative;
+    margin-right: -8px;
+    padding:0;
+    display: inline-block;
+    width: 24px;
+    height: 20px;
+    background-color: white;
+    border-radius: 0 0 70% 70%;
+    border-width: 0;
+}
+
+#w_heading {
+    font-family: 'Indie Flower', cursive;
+}
